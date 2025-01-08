@@ -1,6 +1,6 @@
 import React, { useContext,  useState } from 'react'
-import './PlaceOrder.css'
-import { StoreContext } from '../../components/context/storeContext'
+import './Placeorder.css'
+import { StoreContext } from '../../components/context/StoreContext'
 import axios from 'axios'
 const PlaceOrder = () => {
   const {getTotalCartAmount,token,food_list,cartItem,url}=useContext(StoreContext)
