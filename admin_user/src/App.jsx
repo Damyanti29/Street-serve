@@ -4,7 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import SideBar from './components/sideBar/SideBar'
 import Add from './pages/Add/Add'
 import List from './pages/List/List'
-import Orders from './pages/orders/Orders'
+import Orders from './pages/Orders/Orders'
 
 const App = () => {
   const url="https://cafeteria-mern-backend.onrender.com"
