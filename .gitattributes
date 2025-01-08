@@ -1,10 +1,18 @@
-# Enforce LF for all text files
+# Set the default behavior for all text files
 * text=auto
 
-# Explicitly enforce LF for specific file types
+# Force LF for specific file types
 *.js text eol=lf
-*.jsx text eol=lf
 *.json text eol=lf
 *.css text eol=lf
 *.html text eol=lf
 *.md text eol=lf
+
+# Binary files should not be altered
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.exe binary
+*.dll binary

@@ -3,7 +3,7 @@ import fs from 'fs'
 
 
 const addFood =async (req,res)=>{
-    console.log(req.file);  // Add this to check if the file is being sent
+    console.log(req.file); 
 
     if (!req.file) {
         return res.status(400).json({ success: false, message: "No file uploaded" });
