@@ -7,16 +7,19 @@ import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 import Footer from './components/Footer/Footer'
 import Login from './components/Login/Login'
 
+
 const App = () => {
-  const [showLogin,setShowLogin]=useState(false)
+  const [showLogin,setShowLogin]=useState(false);
+  const [search, setSearch] = useState("");
+   
   return (
     <>
     {showLogin?<Login setShowLogin={setShowLogin}/>:<>
     </>}
      <div className='App'>
-      <Navbar setShowLogin={setShowLogin}/>
+      <Navbar setShowLogin={setShowLogin} search={search} setSearch={setSearch} />
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/' element={<Home search={search}/>}/>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/order' element={<PlaceOrder/>}/>
       </Routes>

@@ -4,8 +4,8 @@ const Header = () => {
   return (
     <div className='header'>
       <div className="header-contents">
-        <h2>Order  your  favourite  Food  Here</h2>
-        <button>View Menu</button>
+        <h2>Order  your  fresh Raw Material  Here</h2>
+        <a href='#Explore'><button>View Freshness</button></a>
       </div>
     </div>
   )

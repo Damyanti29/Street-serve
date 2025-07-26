@@ -45,6 +45,7 @@
 .explore-list-item .active{
     border: 4px solid tomato;
 }
+
 @media (max-width:1050px) {
     .Explore-text{
         max-width:100% ;

@@ -9,6 +9,23 @@
 .logo{
     height: 100px;
 }
+/* Add to Navbar.css */
+.navbar-search-bar {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.navbar-search-input {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+  outline: none;
+}
+.navbar-search-icon {
+  width: 24px;
+  height: 24px;
+}
 .navbar-menu{
     display: flex;
     list-style:none;
