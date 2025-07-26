@@ -7,7 +7,7 @@ import List from './pages/List/List'
 import Orders from './pages/Orders/Orders'
 
 const App = () => {
-  const url="https://cafeteria-mern-backend.onrender.com"
+  const url="backend"
   return (
     <div>
        <Navbar/>

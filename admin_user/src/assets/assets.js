@@ -14,4 +14,5 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'https://cafeteria-mern-backend.onrender.com'
+export const url = 'backend'
+
